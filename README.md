@@ -1,20 +1,22 @@
 # cs608proj
 CS608 Project: EchoNest
 
-Folder Structure:\
-.\
-+-- data\
-|   +-- train_triplets.txt\
-|   +-- unique_tracks.txt\
-+-- db\
-|   +-- lastfm_similars.db\
-|   +-- lastfm_tags.db\
-|   +-- mxm_dataset.db\
-|   +-- track_metadata.db\
-|   +-- artist_similarity.db\
-|   +-- artist_term.db\
-+-- notebooks\
+```
+Folder Structure:
+.
++-- data
+|   +-- train_triplets.txt
+|   +-- unique_tracks.txt
++-- db
+|   +-- lastfm_similars.db
+|   +-- lastfm_tags.db
+|   +-- mxm_dataset.db
+|   +-- track_metadata.db
+|   +-- artist_similarity.db
+|   +-- artist_term.db
++-- notebooks
 +-- .gitignore
+```
 
 Data:\
 Triplets: http://millionsongdataset.com/sites/default/files/challenge/train_triplets.txt.zip\
