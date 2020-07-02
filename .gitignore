@@ -17,6 +17,9 @@
 *.xml
 data/*
 
+### Credentials ###
+credentials.json
+
 ### Database ###
 *.accdb
 *.db
