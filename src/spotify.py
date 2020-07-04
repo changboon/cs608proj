@@ -14,9 +14,9 @@ def load_and_auth_spotify(filepath):
 	return sp
 
 
-def get_spotify_uri(sp, query):
-    results = sp.search(q=query, limit=1)
-    record = {"query": query, "title": "", "artist": "", "album": "", "uri": ""}
+def spotify_search(sp, query)
+	results = sp.search(q=query, limit=1)
+    
     for idx, track in enumerate(results['tracks']['items']):
         return {
         "query": query, 
@@ -25,8 +25,19 @@ def get_spotify_uri(sp, query):
         "album": track['album']['name'],
         "uri": track['uri']
         }
-    return record
+    return False
 
+
+def get_spotify_uri(sp, title, artist, album):
+	query = title + " " + artist
+	record = spotify_search(sp, query)
+	if record == False:
+		query = title + " " + album
+		record = spotify_search(sp, query)
+		if record == False:
+			record = {"query": query, "title": "", "artist": "", "album": "", "uri": ""}
+	return record
+		
 
 def get_audio_analysis(sp, uri):
     analysis = sp.audio_analysis(uri)
