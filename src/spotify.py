@@ -14,28 +14,29 @@ def load_and_auth_spotify(filepath):
 	return sp
 
 
-def spotify_search(sp, query)
+def spotify_search(sp, query):
 	results = sp.search(q=query, limit=1)
-    
-    for idx, track in enumerate(results['tracks']['items']):
-        return {
-        "query": query, 
-        "title": track['name'], 
-        "artist": track['artists'][0]['name'],
-        "album": track['album']['name'],
-        "uri": track['uri']
-        }
-    return False
+
+	for idx, track in enumerate(results['tracks']['items']):
+		return {
+			"query": query, 
+			"title": track['name'], 
+			"artist": track['artists'][0]['name'],
+			"album": track['album']['name'],
+			"uri": track['uri']
+		}
+	return False
 
 
-def get_spotify_uri(sp, title, artist, album):
-	query = title + " " + artist
+def get_spotify_uri(sp, row):
+	query = row.title + " " + row.artist_name
 	record = spotify_search(sp, query)
 	if record == False:
-		query = title + " " + album
+		query = row.title + " " + row.release
 		record = spotify_search(sp, query)
 		if record == False:
 			record = {"query": query, "title": "", "artist": "", "album": "", "uri": ""}
+	record['track_id'] = row.track_id
 	return record
 		
 
@@ -49,6 +50,8 @@ def get_audio_analysis(sp, uri):
 
 
 def get_audio_features(sp, uris): 
+	if len(uris) > 100:
+		raise Exception("list's max size is 100")
     audio_features = sp.audio_features(uris) 
     audio_features_features = ['uri', 'danceability', 'energy', 'key', 'loudness', 'mode', 
                                'speechiness', 'acousticness', 'instrumentalness', 
