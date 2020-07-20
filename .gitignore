@@ -17,6 +17,7 @@
 *.xml
 data/*
 experiments/*
+*.zip
 
 ### Credentials ###
 credentials.json
