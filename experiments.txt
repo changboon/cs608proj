@@ -1,0 +1,17 @@
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1BO9FC9GKhFgzOlLdlaMqL3hcseAwuYZf' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1BO9FC9GKhFgzOlLdlaMqL3hcseAwuYZf" -O ./experiments.zip && rm -rf /tmp/cookies.txt
+https://drive.google.com/file/d/1BO9FC9GKhFgzOlLdlaMqL3hcseAwuYZf/view?usp=sharing
+
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=18WcMw72_G6oeselO19rsjfmiMVb6X_-7' -O ./cs608proj/experiments/triplets/train.libfm
+https://drive.google.com/file/d/18WcMw72_G6oeselO19rsjfmiMVb6X_-7/view?usp=sharing
+
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1XSkzi0vkB6ARKe3KLTSTJl9htopW-9VD' -O ./cs608proj/experiments/triplets/test.libfm
+https://drive.google.com/file/d/1XSkzi0vkB6ARKe3KLTSTJl9htopW-9VD/view?usp=sharing
+
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/triplets/train.libfm -test ./cs608proj/experiments/triplets/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/triplets/output.libfm | tee ./cs608proj/experiments/triplets/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata/train.libfm -test ./cs608proj/experiments/metadata/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata/output.libfm | tee ./cs608proj/experiments/metadata/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_artist/train.libfm -test ./cs608proj/experiments/metadata_artist/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_artist/output.libfm | tee ./cs608proj/experiments/metadata_artist/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_artist_lyrics/train.libfm -test ./cs608proj/experiments/metadata_artist_lyrics/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_artist_lyrics/output.libfm | tee ./cs608proj/experiments/metadata_artist_lyrics/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_artist_lyrics_spotify/train.libfm -test ./cs608proj/experiments/metadata_artist_lyrics_spotify/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_artist_lyrics_spotify/output.libfm | tee ./cs608proj/experiments/metadata_artist_lyrics_spotify/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_artist_spotify/train.libfm -test ./cs608proj/experiments/metadata_artist_spotify/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_artist_spotify/output.libfm | tee ./cs608proj/experiments/metadata_artist_spotify/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_lyrics/train.libfm -test ./cs608proj/experiments/metadata_lyrics/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_lyrics/output.libfm | tee ./cs608proj/experiments/metadata_lyrics/output.txt
+./libfm/bin/libFM -task r -train ./cs608proj/experiments/metadata_spotify/train.libfm -test ./cs608proj/experiments/metadata_spotify/test.libfm -seed 2020 -dim "1,1,16" -iter 500 -out ./cs608proj/experiments/metadata_spotify/output.libfm | tee ./cs608proj/experiments/metadata_spotify/output.txt
