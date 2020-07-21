@@ -1,0 +1,519 @@
+----------------------------------------------------------------------------
+libFM
+  Version: 1.4.4
+  Author:  Steffen Rendle, srendle@libfm.org
+  WWW:     http://www.libfm.org/
+This program comes with ABSOLUTELY NO WARRANTY; for details see license.txt.
+This is free software, and you are welcome to redistribute it under certain
+conditions; for details see license.txt.
+----------------------------------------------------------------------------
+Loading train...	
+has x = 0
+has xt = 1
+num_rows=3713828	num_values=7427656	num_features=754894	min_target=5	max_target=150
+Loading test... 	
+has x = 0
+has xt = 1
+num_rows=1829200	num_values=3658400	num_features=754894	min_target=5	max_target=150
+#relations: 0
+Loading meta data...	
+#Iter=  0	Train=10.6664	Test=10.7071
+#Iter=  1	Train=10.6527	Test=10.7001
+#Iter=  2	Train=10.6526	Test=10.6978
+#Iter=  3	Train=10.6515	Test=10.6964
+#Iter=  4	Train=10.6519	Test=10.6957
+#Iter=  5	Train=10.6517	Test=10.6951
+#Iter=  6	Train=10.6513	Test=10.6947
+#Iter=  7	Train=10.6506	Test=10.6943
+#Iter=  8	Train=10.6504	Test=10.694
+#Iter=  9	Train=10.6504	Test=10.6937
+#Iter= 10	Train=10.6503	Test=10.6935
+#Iter= 11	Train=10.65	Test=10.6933
+#Iter= 12	Train=10.6495	Test=10.6931
+#Iter= 13	Train=10.6492	Test=10.6929
+#Iter= 14	Train=10.6492	Test=10.6928
+#Iter= 15	Train=10.6484	Test=10.6926
+#Iter= 16	Train=10.648	Test=10.6924
+#Iter= 17	Train=10.6478	Test=10.6922
+#Iter= 18	Train=10.6475	Test=10.692
+#Iter= 19	Train=10.6468	Test=10.6918
+#Iter= 20	Train=10.6466	Test=10.6916
+#Iter= 21	Train=10.6462	Test=10.6914
+#Iter= 22	Train=10.6463	Test=10.6912
+#Iter= 23	Train=10.6461	Test=10.6911
+#Iter= 24	Train=10.645	Test=10.6909
+#Iter= 25	Train=10.6448	Test=10.6907
+#Iter= 26	Train=10.6449	Test=10.6905
+#Iter= 27	Train=10.6442	Test=10.6903
+#Iter= 28	Train=10.6441	Test=10.6902
+#Iter= 29	Train=10.6433	Test=10.69
+#Iter= 30	Train=10.643	Test=10.6898
+#Iter= 31	Train=10.6429	Test=10.6896
+#Iter= 32	Train=10.6422	Test=10.6894
+#Iter= 33	Train=10.6423	Test=10.6893
+#Iter= 34	Train=10.6417	Test=10.6891
+#Iter= 35	Train=10.6412	Test=10.6889
+#Iter= 36	Train=10.6404	Test=10.6887
+#Iter= 37	Train=10.64	Test=10.6885
+#Iter= 38	Train=10.6397	Test=10.6883
+#Iter= 39	Train=10.6395	Test=10.6882
+#Iter= 40	Train=10.6391	Test=10.688
+#Iter= 41	Train=10.6385	Test=10.6878
+#Iter= 42	Train=10.6378	Test=10.6876
+#Iter= 43	Train=10.6376	Test=10.6874
+#Iter= 44	Train=10.6367	Test=10.6872
+#Iter= 45	Train=10.6368	Test=10.687
+#Iter= 46	Train=10.6357	Test=10.6868
+#Iter= 47	Train=10.6353	Test=10.6866
+#Iter= 48	Train=10.6348	Test=10.6864
+#Iter= 49	Train=10.6344	Test=10.6862
+#Iter= 50	Train=10.6337	Test=10.6859
+#Iter= 51	Train=10.6336	Test=10.6857
+#Iter= 52	Train=10.6329	Test=10.6855
+#Iter= 53	Train=10.6319	Test=10.6853
+#Iter= 54	Train=10.6322	Test=10.6851
+#Iter= 55	Train=10.6311	Test=10.6849
+#Iter= 56	Train=10.6307	Test=10.6847
+#Iter= 57	Train=10.6299	Test=10.6844
+#Iter= 58	Train=10.6294	Test=10.6842
+#Iter= 59	Train=10.6286	Test=10.684
+#Iter= 60	Train=10.6279	Test=10.6838
+#Iter= 61	Train=10.6272	Test=10.6835
+#Iter= 62	Train=10.6268	Test=10.6833
+#Iter= 63	Train=10.6264	Test=10.683
+#Iter= 64	Train=10.6257	Test=10.6828
+#Iter= 65	Train=10.6256	Test=10.6826
+#Iter= 66	Train=10.6244	Test=10.6823
+#Iter= 67	Train=10.6236	Test=10.6821
+#Iter= 68	Train=10.623	Test=10.6818
+#Iter= 69	Train=10.623	Test=10.6816
+#Iter= 70	Train=10.6216	Test=10.6813
+#Iter= 71	Train=10.6211	Test=10.6811
+#Iter= 72	Train=10.6206	Test=10.6808
+#Iter= 73	Train=10.6198	Test=10.6806
+#Iter= 74	Train=10.6193	Test=10.6803
+#Iter= 75	Train=10.6186	Test=10.6801
+#Iter= 76	Train=10.6182	Test=10.6798
+#Iter= 77	Train=10.6177	Test=10.6795
+#Iter= 78	Train=10.6161	Test=10.6793
+#Iter= 79	Train=10.6157	Test=10.679
+#Iter= 80	Train=10.6152	Test=10.6787
+#Iter= 81	Train=10.6143	Test=10.6784
+#Iter= 82	Train=10.6134	Test=10.6781
+#Iter= 83	Train=10.6124	Test=10.6779
+#Iter= 84	Train=10.6109	Test=10.6776
+#Iter= 85	Train=10.6108	Test=10.6773
+#Iter= 86	Train=10.6104	Test=10.677
+#Iter= 87	Train=10.6082	Test=10.6767
+#Iter= 88	Train=10.6078	Test=10.6764
+#Iter= 89	Train=10.607	Test=10.676
+#Iter= 90	Train=10.6059	Test=10.6757
+#Iter= 91	Train=10.6048	Test=10.6754
+#Iter= 92	Train=10.6045	Test=10.6751
+#Iter= 93	Train=10.6027	Test=10.6748
+#Iter= 94	Train=10.6022	Test=10.6745
+#Iter= 95	Train=10.6003	Test=10.6741
+#Iter= 96	Train=10.599	Test=10.6738
+#Iter= 97	Train=10.5981	Test=10.6734
+#Iter= 98	Train=10.5969	Test=10.6731
+#Iter= 99	Train=10.596	Test=10.6727
+#Iter=100	Train=10.595	Test=10.6724
+#Iter=101	Train=10.5938	Test=10.672
+#Iter=102	Train=10.5923	Test=10.6716
+#Iter=103	Train=10.5907	Test=10.6713
+#Iter=104	Train=10.5896	Test=10.6709
+#Iter=105	Train=10.5887	Test=10.6705
+#Iter=106	Train=10.5863	Test=10.6701
+#Iter=107	Train=10.586	Test=10.6697
+#Iter=108	Train=10.5836	Test=10.6693
+#Iter=109	Train=10.5824	Test=10.6689
+#Iter=110	Train=10.5811	Test=10.6685
+#Iter=111	Train=10.5796	Test=10.668
+#Iter=112	Train=10.5787	Test=10.6676
+#Iter=113	Train=10.5769	Test=10.6672
+#Iter=114	Train=10.5746	Test=10.6667
+#Iter=115	Train=10.5732	Test=10.6663
+#Iter=116	Train=10.5711	Test=10.6658
+#Iter=117	Train=10.5695	Test=10.6654
+#Iter=118	Train=10.5674	Test=10.6649
+#Iter=119	Train=10.5653	Test=10.6644
+#Iter=120	Train=10.5638	Test=10.6639
+#Iter=121	Train=10.5617	Test=10.6634
+#Iter=122	Train=10.5588	Test=10.6629
+#Iter=123	Train=10.5567	Test=10.6624
+#Iter=124	Train=10.5545	Test=10.6619
+#Iter=125	Train=10.5508	Test=10.6613
+#Iter=126	Train=10.5491	Test=10.6607
+#Iter=127	Train=10.5471	Test=10.6602
+#Iter=128	Train=10.5451	Test=10.6596
+#Iter=129	Train=10.5412	Test=10.659
+#Iter=130	Train=10.5383	Test=10.6584
+#Iter=131	Train=10.5356	Test=10.6577
+#Iter=132	Train=10.5322	Test=10.6571
+#Iter=133	Train=10.5288	Test=10.6565
+#Iter=134	Train=10.5268	Test=10.6558
+#Iter=135	Train=10.5228	Test=10.6551
+#Iter=136	Train=10.5199	Test=10.6544
+#Iter=137	Train=10.5157	Test=10.6537
+#Iter=138	Train=10.513	Test=10.653
+#Iter=139	Train=10.5073	Test=10.6522
+#Iter=140	Train=10.504	Test=10.6515
+#Iter=141	Train=10.5005	Test=10.6507
+#Iter=142	Train=10.4964	Test=10.6499
+#Iter=143	Train=10.4906	Test=10.6491
+#Iter=144	Train=10.4852	Test=10.6482
+#Iter=145	Train=10.4803	Test=10.6473
+#Iter=146	Train=10.475	Test=10.6464
+#Iter=147	Train=10.4685	Test=10.6455
+#Iter=148	Train=10.4626	Test=10.6446
+#Iter=149	Train=10.4577	Test=10.6436
+#Iter=150	Train=10.4482	Test=10.6426
+#Iter=151	Train=10.4428	Test=10.6415
+#Iter=152	Train=10.4346	Test=10.6404
+#Iter=153	Train=10.4256	Test=10.6393
+#Iter=154	Train=10.417	Test=10.6381
+#Iter=155	Train=10.4068	Test=10.6369
+#Iter=156	Train=10.3977	Test=10.6356
+#Iter=157	Train=10.3874	Test=10.6343
+#Iter=158	Train=10.3749	Test=10.6329
+#Iter=159	Train=10.3635	Test=10.6315
+#Iter=160	Train=10.35	Test=10.63
+#Iter=161	Train=10.3346	Test=10.6284
+#Iter=162	Train=10.3188	Test=10.6268
+#Iter=163	Train=10.3013	Test=10.6251
+#Iter=164	Train=10.2832	Test=10.6232
+#Iter=165	Train=10.2617	Test=10.6213
+#Iter=166	Train=10.2376	Test=10.6193
+#Iter=167	Train=10.2151	Test=10.6171
+#Iter=168	Train=10.1874	Test=10.6148
+#Iter=169	Train=10.1576	Test=10.6124
+#Iter=170	Train=10.1248	Test=10.6097
+#Iter=171	Train=10.0922	Test=10.607
+#Iter=172	Train=10.0504	Test=10.604
+#Iter=173	Train=10.0097	Test=10.6008
+#Iter=174	Train=9.96336	Test=10.5974
+#Iter=175	Train=9.9163	Test=10.5937
+#Iter=176	Train=9.86429	Test=10.5897
+#Iter=177	Train=9.81152	Test=10.5855
+#Iter=178	Train=9.75844	Test=10.5809
+#Iter=179	Train=9.70519	Test=10.5761
+#Iter=180	Train=9.6538	Test=10.5711
+#Iter=181	Train=9.60469	Test=10.5657
+#Iter=182	Train=9.55939	Test=10.5601
+#Iter=183	Train=9.51807	Test=10.5544
+#Iter=184	Train=9.48168	Test=10.5484
+#Iter=185	Train=9.45263	Test=10.5423
+#Iter=186	Train=9.4293	Test=10.5362
+#Iter=187	Train=9.40899	Test=10.5299
+#Iter=188	Train=9.39234	Test=10.5236
+#Iter=189	Train=9.38109	Test=10.5174
+#Iter=190	Train=9.36995	Test=10.5111
+#Iter=191	Train=9.36062	Test=10.5049
+#Iter=192	Train=9.35364	Test=10.4987
+#Iter=193	Train=9.35121	Test=10.4925
+#Iter=194	Train=9.34762	Test=10.4865
+#Iter=195	Train=9.34472	Test=10.4805
+#Iter=196	Train=9.34203	Test=10.4746
+#Iter=197	Train=9.3395	Test=10.4687
+#Iter=198	Train=9.33848	Test=10.4629
+#Iter=199	Train=9.33808	Test=10.4572
+#Iter=200	Train=9.33662	Test=10.4516
+#Iter=201	Train=9.33523	Test=10.446
+#Iter=202	Train=9.33826	Test=10.4405
+#Iter=203	Train=9.33458	Test=10.4351
+#Iter=204	Train=9.33598	Test=10.4297
+#Iter=205	Train=9.335	Test=10.4244
+#Iter=206	Train=9.33304	Test=10.4192
+#Iter=207	Train=9.33365	Test=10.414
+#Iter=208	Train=9.33234	Test=10.4089
+#Iter=209	Train=9.33637	Test=10.404
+#Iter=210	Train=9.33372	Test=10.399
+#Iter=211	Train=9.33294	Test=10.3941
+#Iter=212	Train=9.33368	Test=10.3893
+#Iter=213	Train=9.33343	Test=10.3845
+#Iter=214	Train=9.3327	Test=10.3799
+#Iter=215	Train=9.33278	Test=10.3752
+#Iter=216	Train=9.33182	Test=10.3706
+#Iter=217	Train=9.33366	Test=10.3661
+#Iter=218	Train=9.33629	Test=10.3617
+#Iter=219	Train=9.33602	Test=10.3573
+#Iter=220	Train=9.33398	Test=10.3529
+#Iter=221	Train=9.33276	Test=10.3486
+#Iter=222	Train=9.33281	Test=10.3444
+#Iter=223	Train=9.3338	Test=10.3402
+#Iter=224	Train=9.33419	Test=10.3361
+#Iter=225	Train=9.33252	Test=10.332
+#Iter=226	Train=9.33038	Test=10.3279
+#Iter=227	Train=9.3321	Test=10.3239
+#Iter=228	Train=9.33088	Test=10.32
+#Iter=229	Train=9.33407	Test=10.3161
+#Iter=230	Train=9.33613	Test=10.3123
+#Iter=231	Train=9.33737	Test=10.3085
+#Iter=232	Train=9.33547	Test=10.3047
+#Iter=233	Train=9.33598	Test=10.301
+#Iter=234	Train=9.33616	Test=10.2974
+#Iter=235	Train=9.33649	Test=10.2938
+#Iter=236	Train=9.33532	Test=10.2902
+#Iter=237	Train=9.33282	Test=10.2867
+#Iter=238	Train=9.33555	Test=10.2832
+#Iter=239	Train=9.33568	Test=10.2798
+#Iter=240	Train=9.33331	Test=10.2764
+#Iter=241	Train=9.33246	Test=10.273
+#Iter=242	Train=9.33316	Test=10.2697
+#Iter=243	Train=9.33678	Test=10.2664
+#Iter=244	Train=9.3336	Test=10.2632
+#Iter=245	Train=9.33125	Test=10.2599
+#Iter=246	Train=9.33265	Test=10.2568
+#Iter=247	Train=9.33384	Test=10.2536
+#Iter=248	Train=9.33283	Test=10.2505
+#Iter=249	Train=9.33184	Test=10.2474
+#Iter=250	Train=9.33386	Test=10.2444
+#Iter=251	Train=9.33361	Test=10.2414
+#Iter=252	Train=9.3332	Test=10.2384
+#Iter=253	Train=9.33273	Test=10.2355
+#Iter=254	Train=9.33177	Test=10.2326
+#Iter=255	Train=9.33131	Test=10.2297
+#Iter=256	Train=9.33202	Test=10.2269
+#Iter=257	Train=9.33667	Test=10.2241
+#Iter=258	Train=9.33468	Test=10.2213
+#Iter=259	Train=9.33396	Test=10.2186
+#Iter=260	Train=9.33238	Test=10.2158
+#Iter=261	Train=9.33386	Test=10.2132
+#Iter=262	Train=9.33797	Test=10.2105
+#Iter=263	Train=9.33386	Test=10.2079
+#Iter=264	Train=9.33464	Test=10.2053
+#Iter=265	Train=9.33518	Test=10.2027
+#Iter=266	Train=9.33379	Test=10.2002
+#Iter=267	Train=9.33339	Test=10.1976
+#Iter=268	Train=9.33454	Test=10.1951
+#Iter=269	Train=9.33566	Test=10.1927
+#Iter=270	Train=9.33522	Test=10.1902
+#Iter=271	Train=9.3341	Test=10.1878
+#Iter=272	Train=9.33584	Test=10.1854
+#Iter=273	Train=9.33413	Test=10.1831
+#Iter=274	Train=9.33321	Test=10.1807
+#Iter=275	Train=9.33427	Test=10.1784
+#Iter=276	Train=9.33422	Test=10.176
+#Iter=277	Train=9.33103	Test=10.1738
+#Iter=278	Train=9.33431	Test=10.1715
+#Iter=279	Train=9.33463	Test=10.1693
+#Iter=280	Train=9.33447	Test=10.1671
+#Iter=281	Train=9.33463	Test=10.1649
+#Iter=282	Train=9.33454	Test=10.1627
+#Iter=283	Train=9.33476	Test=10.1606
+#Iter=284	Train=9.33136	Test=10.1585
+#Iter=285	Train=9.33229	Test=10.1563
+#Iter=286	Train=9.33378	Test=10.1543
+#Iter=287	Train=9.33497	Test=10.1522
+#Iter=288	Train=9.33725	Test=10.1501
+#Iter=289	Train=9.33262	Test=10.1481
+#Iter=290	Train=9.33431	Test=10.1461
+#Iter=291	Train=9.33341	Test=10.1442
+#Iter=292	Train=9.33397	Test=10.1422
+#Iter=293	Train=9.33177	Test=10.1402
+#Iter=294	Train=9.33418	Test=10.1383
+#Iter=295	Train=9.33274	Test=10.1364
+#Iter=296	Train=9.33261	Test=10.1345
+#Iter=297	Train=9.33483	Test=10.1326
+#Iter=298	Train=9.33406	Test=10.1308
+#Iter=299	Train=9.33182	Test=10.1289
+#Iter=300	Train=9.33335	Test=10.1271
+#Iter=301	Train=9.33744	Test=10.1253
+#Iter=302	Train=9.33423	Test=10.1235
+#Iter=303	Train=9.33312	Test=10.1218
+#Iter=304	Train=9.33347	Test=10.12
+#Iter=305	Train=9.33469	Test=10.1183
+#Iter=306	Train=9.33315	Test=10.1165
+#Iter=307	Train=9.335	Test=10.1148
+#Iter=308	Train=9.33394	Test=10.1131
+#Iter=309	Train=9.33642	Test=10.1115
+#Iter=310	Train=9.33418	Test=10.1098
+#Iter=311	Train=9.33511	Test=10.1082
+#Iter=312	Train=9.33399	Test=10.1065
+#Iter=313	Train=9.3356	Test=10.1049
+#Iter=314	Train=9.33143	Test=10.1033
+#Iter=315	Train=9.33313	Test=10.1017
+#Iter=316	Train=9.33433	Test=10.1002
+#Iter=317	Train=9.33583	Test=10.0986
+#Iter=318	Train=9.33638	Test=10.0971
+#Iter=319	Train=9.33499	Test=10.0956
+#Iter=320	Train=9.33592	Test=10.0941
+#Iter=321	Train=9.33685	Test=10.0926
+#Iter=322	Train=9.33534	Test=10.0911
+#Iter=323	Train=9.33498	Test=10.0896
+#Iter=324	Train=9.33522	Test=10.0882
+#Iter=325	Train=9.33498	Test=10.0867
+#Iter=326	Train=9.33383	Test=10.0852
+#Iter=327	Train=9.33588	Test=10.0838
+#Iter=328	Train=9.33492	Test=10.0824
+#Iter=329	Train=9.33328	Test=10.081
+#Iter=330	Train=9.332	Test=10.0796
+#Iter=331	Train=9.33293	Test=10.0782
+#Iter=332	Train=9.33298	Test=10.0768
+#Iter=333	Train=9.33388	Test=10.0755
+#Iter=334	Train=9.33201	Test=10.0741
+#Iter=335	Train=9.3337	Test=10.0728
+#Iter=336	Train=9.33548	Test=10.0715
+#Iter=337	Train=9.33425	Test=10.0702
+#Iter=338	Train=9.33437	Test=10.0689
+#Iter=339	Train=9.33434	Test=10.0676
+#Iter=340	Train=9.33319	Test=10.0663
+#Iter=341	Train=9.33385	Test=10.065
+#Iter=342	Train=9.33376	Test=10.0638
+#Iter=343	Train=9.33297	Test=10.0625
+#Iter=344	Train=9.33307	Test=10.0613
+#Iter=345	Train=9.33302	Test=10.0601
+#Iter=346	Train=9.3346	Test=10.0589
+#Iter=347	Train=9.33555	Test=10.0576
+#Iter=348	Train=9.33632	Test=10.0564
+#Iter=349	Train=9.33399	Test=10.0553
+#Iter=350	Train=9.33552	Test=10.0541
+#Iter=351	Train=9.3347	Test=10.0529
+#Iter=352	Train=9.33329	Test=10.0517
+#Iter=353	Train=9.33304	Test=10.0506
+#Iter=354	Train=9.33312	Test=10.0494
+#Iter=355	Train=9.33383	Test=10.0483
+#Iter=356	Train=9.33404	Test=10.0471
+#Iter=357	Train=9.33535	Test=10.046
+#Iter=358	Train=9.33372	Test=10.0449
+#Iter=359	Train=9.33364	Test=10.0438
+#Iter=360	Train=9.33195	Test=10.0427
+#Iter=361	Train=9.33176	Test=10.0416
+#Iter=362	Train=9.3313	Test=10.0405
+#Iter=363	Train=9.33181	Test=10.0395
+#Iter=364	Train=9.33085	Test=10.0384
+#Iter=365	Train=9.33129	Test=10.0374
+#Iter=366	Train=9.33189	Test=10.0363
+#Iter=367	Train=9.33223	Test=10.0353
+#Iter=368	Train=9.33312	Test=10.0343
+#Iter=369	Train=9.33369	Test=10.0333
+#Iter=370	Train=9.33418	Test=10.0322
+#Iter=371	Train=9.33475	Test=10.0312
+#Iter=372	Train=9.33492	Test=10.0302
+#Iter=373	Train=9.33379	Test=10.0293
+#Iter=374	Train=9.33372	Test=10.0283
+#Iter=375	Train=9.33454	Test=10.0273
+#Iter=376	Train=9.3349	Test=10.0263
+#Iter=377	Train=9.33621	Test=10.0254
+#Iter=378	Train=9.33317	Test=10.0244
+#Iter=379	Train=9.33343	Test=10.0235
+#Iter=380	Train=9.33262	Test=10.0225
+#Iter=381	Train=9.33443	Test=10.0216
+#Iter=382	Train=9.33439	Test=10.0207
+#Iter=383	Train=9.33206	Test=10.0198
+#Iter=384	Train=9.33213	Test=10.0188
+#Iter=385	Train=9.33358	Test=10.0179
+#Iter=386	Train=9.33562	Test=10.017
+#Iter=387	Train=9.33494	Test=10.0161
+#Iter=388	Train=9.33406	Test=10.0153
+#Iter=389	Train=9.33593	Test=10.0144
+#Iter=390	Train=9.33314	Test=10.0135
+#Iter=391	Train=9.33309	Test=10.0127
+#Iter=392	Train=9.3352	Test=10.0118
+#Iter=393	Train=9.33434	Test=10.0109
+#Iter=394	Train=9.33427	Test=10.0101
+#Iter=395	Train=9.33509	Test=10.0092
+#Iter=396	Train=9.3355	Test=10.0084
+#Iter=397	Train=9.33505	Test=10.0076
+#Iter=398	Train=9.33575	Test=10.0068
+#Iter=399	Train=9.33572	Test=10.0059
+#Iter=400	Train=9.33631	Test=10.0051
+#Iter=401	Train=9.33583	Test=10.0043
+#Iter=402	Train=9.33307	Test=10.0035
+#Iter=403	Train=9.33584	Test=10.0027
+#Iter=404	Train=9.33583	Test=10.0019
+#Iter=405	Train=9.33245	Test=10.0011
+#Iter=406	Train=9.33305	Test=10.0004
+#Iter=407	Train=9.33369	Test=9.99959
+#Iter=408	Train=9.33237	Test=9.99882
+#Iter=409	Train=9.3342	Test=9.99805
+#Iter=410	Train=9.33594	Test=9.99729
+#Iter=411	Train=9.33632	Test=9.99654
+#Iter=412	Train=9.3349	Test=9.9958
+#Iter=413	Train=9.33471	Test=9.99506
+#Iter=414	Train=9.33439	Test=9.99432
+#Iter=415	Train=9.33413	Test=9.99359
+#Iter=416	Train=9.33578	Test=9.99287
+#Iter=417	Train=9.33454	Test=9.99215
+#Iter=418	Train=9.33325	Test=9.99143
+#Iter=419	Train=9.33496	Test=9.99071
+#Iter=420	Train=9.33215	Test=9.99001
+#Iter=421	Train=9.33278	Test=9.9893
+#Iter=422	Train=9.33063	Test=9.9886
+#Iter=423	Train=9.33047	Test=9.9879
+#Iter=424	Train=9.33323	Test=9.9872
+#Iter=425	Train=9.3328	Test=9.98651
+#Iter=426	Train=9.33402	Test=9.98583
+#Iter=427	Train=9.3377	Test=9.98516
+#Iter=428	Train=9.33529	Test=9.98449
+#Iter=429	Train=9.3352	Test=9.98383
+#Iter=430	Train=9.33494	Test=9.98317
+#Iter=431	Train=9.33289	Test=9.98251
+#Iter=432	Train=9.33412	Test=9.98185
+#Iter=433	Train=9.3354	Test=9.9812
+#Iter=434	Train=9.3339	Test=9.98055
+#Iter=435	Train=9.33449	Test=9.97991
+#Iter=436	Train=9.33352	Test=9.97927
+#Iter=437	Train=9.3348	Test=9.97863
+#Iter=438	Train=9.33573	Test=9.97799
+#Iter=439	Train=9.33523	Test=9.97736
+#Iter=440	Train=9.33597	Test=9.97674
+#Iter=441	Train=9.33589	Test=9.97612
+#Iter=442	Train=9.33479	Test=9.97551
+#Iter=443	Train=9.3354	Test=9.97489
+#Iter=444	Train=9.33236	Test=9.97428
+#Iter=445	Train=9.33078	Test=9.97368
+#Iter=446	Train=9.33375	Test=9.97308
+#Iter=447	Train=9.33373	Test=9.97249
+#Iter=448	Train=9.33402	Test=9.97191
+#Iter=449	Train=9.33638	Test=9.97132
+#Iter=450	Train=9.33524	Test=9.97074
+#Iter=451	Train=9.33684	Test=9.97016
+#Iter=452	Train=9.33666	Test=9.96958
+#Iter=453	Train=9.33585	Test=9.96902
+#Iter=454	Train=9.3345	Test=9.96845
+#Iter=455	Train=9.33428	Test=9.96788
+#Iter=456	Train=9.33482	Test=9.96732
+#Iter=457	Train=9.3343	Test=9.96677
+#Iter=458	Train=9.33591	Test=9.96622
+#Iter=459	Train=9.3334	Test=9.96566
+#Iter=460	Train=9.3339	Test=9.96512
+#Iter=461	Train=9.33243	Test=9.96457
+#Iter=462	Train=9.33141	Test=9.96402
+#Iter=463	Train=9.33135	Test=9.96347
+#Iter=464	Train=9.33037	Test=9.96293
+#Iter=465	Train=9.33045	Test=9.96238
+#Iter=466	Train=9.3322	Test=9.96184
+#Iter=467	Train=9.33265	Test=9.96131
+#Iter=468	Train=9.3358	Test=9.96079
+#Iter=469	Train=9.33239	Test=9.96026
+#Iter=470	Train=9.33492	Test=9.95975
+#Iter=471	Train=9.33352	Test=9.95924
+#Iter=472	Train=9.33524	Test=9.95872
+#Iter=473	Train=9.33646	Test=9.95822
+#Iter=474	Train=9.33483	Test=9.95772
+#Iter=475	Train=9.33401	Test=9.95721
+#Iter=476	Train=9.33474	Test=9.95671
+#Iter=477	Train=9.33584	Test=9.95621
+#Iter=478	Train=9.33307	Test=9.95572
+#Iter=479	Train=9.33181	Test=9.95521
+#Iter=480	Train=9.33553	Test=9.95472
+#Iter=481	Train=9.33399	Test=9.95423
+#Iter=482	Train=9.33614	Test=9.95376
+#Iter=483	Train=9.33462	Test=9.95329
+#Iter=484	Train=9.3366	Test=9.95281
+#Iter=485	Train=9.33606	Test=9.95234
+#Iter=486	Train=9.33459	Test=9.95186
+#Iter=487	Train=9.33233	Test=9.95139
+#Iter=488	Train=9.33448	Test=9.95092
+#Iter=489	Train=9.33488	Test=9.95047
+#Iter=490	Train=9.33357	Test=9.95
+#Iter=491	Train=9.33102	Test=9.94955
+#Iter=492	Train=9.33433	Test=9.94908
+#Iter=493	Train=9.33146	Test=9.94862
+#Iter=494	Train=9.33245	Test=9.94816
+#Iter=495	Train=9.33159	Test=9.94771
+#Iter=496	Train=9.3342	Test=9.94727
+#Iter=497	Train=9.33363	Test=9.94682
+#Iter=498	Train=9.33331	Test=9.94637
+#Iter=499	Train=9.33265	Test=9.94593

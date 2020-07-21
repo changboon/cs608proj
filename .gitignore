@@ -16,7 +16,7 @@
 *.vcf
 *.xml
 data/*
-experiments/*
+*.libfm
 *.zip
 
 ### Credentials ###
