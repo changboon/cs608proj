@@ -167,7 +167,7 @@ PyWavelets==0.5.2
 pywin32==227
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==18.1.1
 QtAwesome==0.7.0
 qtconsole==4.7.1
