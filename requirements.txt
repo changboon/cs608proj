@@ -215,7 +215,7 @@ traitlets==4.3.3
 typed-ast==1.4.1
 typing==3.6.4
 unicodecsv==0.14.1
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.1.8
 webencodings==0.5.1
 Werkzeug==1.0.0
